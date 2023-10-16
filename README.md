@@ -4,7 +4,8 @@
 ### 1
 ![p4_1](https://github.com/adriansanzzzz/II_Actividad4/assets/74414073/53143146-7bb7-442f-8862-0de69c887d55)
 ###2
-![p4_aparta](https://github.com/adriansanzzzz/II_Actividad4/assets/74414073/a21492d9-df7b-41d7-935f-7d80ce2f000d)
+![apartado4 b](https://github.com/adriansanzzzz/II_Actividad4/assets/74414073/46efaee2-b69a-4e6f-b3c3-4a1a0748ece8)
+
 
 
 ### 3
