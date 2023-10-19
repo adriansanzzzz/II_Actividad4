@@ -51,7 +51,7 @@ public class p4_6_A : MonoBehaviour // SCRIPT PARA bola
         {
             Less10();
             Rigidbody rb = GetComponent<Rigidbody>();
-            rb.velocity *= 0.9f; // Puedes ajustar el factor de reducción según tus necesidades
+            rb.velocity *= 0.9f; 
         }
         if (collision.gameObject.CompareTag(finalTag))
         {
