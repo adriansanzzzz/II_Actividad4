@@ -16,6 +16,14 @@ private bool moveEsferas = false; // Variable para controlar el movimiento de la
 ![apartado4 b](https://github.com/adriansanzzzz/II_Actividad4/assets/74414073/46efaee2-b69a-4e6f-b3c3-4a1a0748ece8)
 
 ### 3 - Cuando el cubo se aproxima al cilindro, las esferas del grupo 1 cambian su color y saltan y las esferas del grupo 2 se orientan hacia un objeto ubicado en la escena con ese propósito.
+Para que salten utilizo AddForce.
+  ```csharp
+ foreach (var esfera in esferasType1)
+        {
+            Rigidbody rigidbody = esfera.GetComponent<Rigidbody>();
+            rigidbody.AddForce(Vector3.up * 5.0f,ForceMode.Impulse);
+        }
+```
 ![p4_3](https://github.com/adriansanzzzz/II_Actividad4/assets/74414073/114871f2-9422-4f98-837f-99a27e42e821)
 
 ### 4 - Implementar la mecánica de recoger esferas en la escena que actualicen la puntuación del jugador. Las esferas de tipo 1 suman 5 puntos y las esferas de tipo 2 suman 10. Mostrar la puntuación en la consola.
