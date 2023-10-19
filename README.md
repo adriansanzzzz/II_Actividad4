@@ -19,3 +19,6 @@
 
 ### 5 - Partiendo del script anterior crea una interfaz que muestre la puntuación que va obteniendo el cubo.
 ![p5](https://github.com/adriansanzzzz/II_Actividad4/assets/74414073/140eb06c-616f-477a-a112-44ead52a3932)
+
+### 6
+![p6](https://github.com/adriansanzzzz/II_Actividad4/assets/74414073/a0346f71-bcfa-483c-a12c-f2ba02bc7ff4)
