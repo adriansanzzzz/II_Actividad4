@@ -7,7 +7,7 @@
 
 ### 2 - Adapta la escena anterior para que:
 ### Cuando el cubo colisiona con cualquier objeto que no sean esferas del grupo 1, las esferas en el grupo 1 se acercan al cilindro. Cuando el cubo toca cualquier esfera del grupo 1, las esferas del grupo 2 aumentan de tamaño.
-He creado un booleano para que  
+He creado un booleano para que cada frame se acerquen más, ya que si no lo hacia asi, solo avanzaban un poco.
   ```csharp
 private bool moveEsferas = false; // Variable para controlar el movimiento de las esferas
 ```
