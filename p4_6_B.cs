@@ -35,29 +35,28 @@ public class p4_6_B : MonoBehaviour
     void AddFive()
     {
         points = points + 5;
-        pointsText.text = "points: " + points.ToString(); // Concatenar "points: " con el valor de 'points'
+        pointsText.text = "points: " + points.ToString(); 
 
     
     }
     void AddTen()
     {
         points = points + 5;
-        pointsText.text = "points: " + points.ToString(); // Concatenar "points: " con el valor de 'points'
+        pointsText.text = "points: " + points.ToString(); 
     
     }
     void LessTen()
     {
         points = points - 10;
-        pointsText.text = "points: " + points.ToString(); // Concatenar "points: " con el valor de 'points'
+        pointsText.text = "points: " + points.ToString(); 
     
     }
     void OnEndstop()
     {
-        pointsText.text = "END - points: " + points.ToString(); // Concatenar "points: " con el valor de 'points'
+        pointsText.text = "END - points: " + points.ToString(); 
 
     
     }
-
 
     
 }
