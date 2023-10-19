@@ -5,7 +5,7 @@ using UnityEngine;
 public class Objeto_B : MonoBehaviour // SCRIPT PARA ESFERA
 {
     public delegate void CollisionHandler();
-    public static event CollisionHandler OnCubeCollision; // Event to handle cylinder-cube collision
+    public static event CollisionHandler OnCubeCollision; 
     public string esfera1Tag = "first_blue_esfera";
     public string esfera2Tag = "blue_esfera";
 
@@ -41,7 +41,6 @@ public class Objeto_B : MonoBehaviour // SCRIPT PARA ESFERA
 
     void HandleCubeCollision()
     {
-        Debug.Log("colision");
         moveEsferas=true;
 
         foreach (var esfera in esferasType1)
@@ -50,11 +49,5 @@ public class Objeto_B : MonoBehaviour // SCRIPT PARA ESFERA
             renderer.material.color = Color.green;
         }
 
-
-        
-        // Move type 2 spheres towards the cylinder based on their group
-
-
-        Debug.Log("end");
     }
 }
