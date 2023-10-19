@@ -5,7 +5,7 @@ using UnityEngine;
 public class p4_3_A : MonoBehaviour // SCRIPT PARA CUBO
 {
     public delegate void CollisionHandler();
-    public static event CollisionHandler OnNear; // Evento para manejar la colisión cubo-cilindro
+    public static event CollisionHandler OnNear; 
 
     public string esfera1Tag = "first_blue_esfera";
     public string esfera2Tag = "blue_esfera";
@@ -21,7 +21,7 @@ public class p4_3_A : MonoBehaviour // SCRIPT PARA CUBO
 
         if (distancia <= distanciaDeAproximacion)
         {
-            OnNear(); // Invocar el evento si la distancia es menor o igual a la distancia de aproximación
+            OnNear(); 
         }
     }
 }
